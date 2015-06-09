@@ -1,0 +1,16 @@
+#mainBody{
+  padding-top:65px;
+}
+li {
+  font-size: 30px;
+  font-family: cursive;
+  display: inline;
+  padding: 110px;
+}
+.navbar {
+  position: fixed;
+  border: solid black;
+  border-style: outset;
+  background-color: grey;
+  text-align: center;
+}
