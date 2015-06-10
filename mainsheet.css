@@ -1,5 +1,5 @@
 body{
-  background-color: black;
+  background-color: blue;
   background-image: url(triangular.png);
 }
 
@@ -12,35 +12,36 @@ img{
   transition:all .1s ease;
 }
 
-.spin:hover{
-  transform:rotateZ(1080deg);
-}
+
 
 #mainBody{
-  padding-top:65px;
+  padding-top:60px;
 }
 
 .navbar li {
-  font-size: 25px;
+  font-size: 20px;
   font-family: cursive;
   display: inline;
-  padding: 110px;
+  padding: 10px;
   transition:all 1s ease;
+    
 }
 
-.navbar li:hover{
-  transform:rotateZ(180deg);
-
+.navbar a {
+    border: 2px solid black;
 }
+
 
 
 
 .navbar {
-  position: fixed;
+/*   position: fixed; */
   border: solid black;
   border-style: outset;
   background-color: grey;
   text-align: center;
+    width: 100%;
+      
 }
 
 h1{
